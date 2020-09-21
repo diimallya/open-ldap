@@ -1,0 +1,25 @@
+---    
+  ldap_basedn:       dc=ibm,dc=com         # Base DN
+  ldap_server_uri:   ldap://localhost:389       # LDAP server URI
+  ldap_bind_pw:      secret                     # bind password
+  ldap_users:
+    user_id1:
+      cn: Divya Kamath
+      givenname: Divya
+      sn: Kamath
+      mail: dk@ibm.com
+      userpassword: password
+    user_id2:
+      cn: Vijay Bhaskar
+      givenname: Vijay
+      sn: Bhaskar
+      mail: vb@ibm.com
+      userpassword: password
+  ldap_groups:
+    - name: admins
+      members:
+        - user_id1
+    - name: operators
+      members:
+        - user_id1
+        - user_id2

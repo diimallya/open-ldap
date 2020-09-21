@@ -1,0 +1,4 @@
+roles:
+  # from galaxy
+  - src: capitanh.openldap-ansible-role
+    name: openldap
