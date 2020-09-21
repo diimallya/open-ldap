@@ -4,16 +4,16 @@
   ldap_bind_pw:      secret                     # bind password
   ldap_users:
     user_id1:
-      cn: Divya Kamath
-      givenname: Divya
-      sn: Kamath
-      mail: dk@ibm.com
+      cn: John Kelly
+      givenname: John
+      sn: Kelly
+      mail: jk@ibm.com
       userpassword: password
     user_id2:
-      cn: Vijay Bhaskar
-      givenname: Vijay
-      sn: Bhaskar
-      mail: vb@ibm.com
+      cn: Deepak Sharma
+      givenname: Deepak
+      sn: Sharma
+      mail: ds@ibm.com
       userpassword: password
   ldap_groups:
     - name: admins
